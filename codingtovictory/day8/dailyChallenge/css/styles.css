@@ -1,14 +1,13 @@
 .container {
   width: 500px;
-  background-color: aqua;
-  height: 2000px;
 }
 header,
 footer,
 nav {
   width: 100%;
-  background-color: blue;
+  background-color: brown;
   height: 100px;
+  margin: 10px;
 }
 nav {
   background-color: blueviolet;
@@ -17,6 +16,7 @@ main {
   width: 100%;
   background-color: bisque;
   height: 200px;
+  margin: 10px;
   display: flex;
 }
 aside {
@@ -27,13 +27,14 @@ aside {
 .column {
   width: 50%;
   height: 100%;
-  background-color: chartreuse;
 }
 section {
-  height: 50%;
+  height: 80px;
   background-color: brown;
+  margin: 0px 10px 30px 10px;
 }
 article {
-  height: 50%;
+  height: 80px;
   background-color: chocolate;
+  margin: 40px 10px 0px 10px;
 }
