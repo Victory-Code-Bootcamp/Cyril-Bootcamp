@@ -1,0 +1,8 @@
+.nabla-body {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
+  color: red;
+}
