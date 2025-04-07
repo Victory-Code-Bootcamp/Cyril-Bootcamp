@@ -10,7 +10,7 @@ nav {
   margin: 10px;
 }
 nav {
-  background-color: blueviolet;
+  background-color: chocolate;
 }
 main {
   width: 100%;
@@ -21,7 +21,7 @@ main {
 aside {
   width: 50%;
   height: 100%;
-  background-color: green;
+  background-color: burlywood;
 }
 .column {
   width: 50%;
