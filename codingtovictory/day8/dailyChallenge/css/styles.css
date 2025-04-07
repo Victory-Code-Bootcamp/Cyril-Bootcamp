@@ -1,5 +1,10 @@
 .container {
   width: 500px;
+  font-size: x-large;
+  font-weight: bold;
+  font-stretch: semi-expanded;
+  font-style: italic;
+  font-family: cursive;
 }
 header,
 footer,
