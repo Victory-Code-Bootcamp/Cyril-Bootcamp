@@ -41,3 +41,16 @@ function printOdds() {
 }
 
 printOdds();
+
+function capitalizeEvenIndexes(words) {
+  return words.map((word, index) => {
+    return index % 2 === 0
+      ? word.charAt(0).toUpperCase() + word.slice(1)
+      : word;
+  });
+}
+
+console.log(
+  capitalizeEvenIndexes(["bootcamp", "participants", "rock", "javascript"])
+);
+// Output: ['Bootcamp', 'participants', 'Rock', 'javascript']
