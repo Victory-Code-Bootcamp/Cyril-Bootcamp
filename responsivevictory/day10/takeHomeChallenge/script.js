@@ -25,3 +25,9 @@ function sumEven(numbers) {
 }
 
 console.log(sumEven([1, 2, 3, 4, 5, 6])); // Output: 12
+
+function capitalizeAll(words) {
+  return words.map((word) => word.charAt(0).toUpperCase() + word.slice(1));
+}
+
+console.log(capitalizeAll(["hello", "world"])); // Output: ['Hello', 'World']
