@@ -31,3 +31,13 @@ function capitalizeAll(words) {
 }
 
 console.log(capitalizeAll(["hello", "world"])); // Output: ['Hello', 'World']
+
+function printOdds() {
+  for (let i = 1; i <= 50; i++) {
+    if (i % 2 !== 0) {
+      console.log(i);
+    }
+  }
+}
+
+printOdds();
